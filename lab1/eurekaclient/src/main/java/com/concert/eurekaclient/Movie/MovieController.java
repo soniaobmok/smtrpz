@@ -17,7 +17,6 @@ public class MovieController {
 
     @RequestMapping(path="", method = RequestMethod.POST)
     public @ResponseBody String add (@RequestBody Movie movie) throws ParseException {
-        //movie.setPurchaseDate();
         repository.save(movie);
         return "Saved";
     }
