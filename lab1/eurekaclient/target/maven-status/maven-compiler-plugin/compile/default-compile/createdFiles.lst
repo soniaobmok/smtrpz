@@ -1,5 +1,0 @@
-com\concert\eurekaclient\EurekaclientApplication.class
-com\concert\eurekaclient\Ticket\TicketController.class
-com\concert\eurekaclient\Error\CustomErrorController.class
-com\concert\eurekaclient\Ticket\Ticket.class
-com\concert\eurekaclient\Ticket\TicketRepository.class
