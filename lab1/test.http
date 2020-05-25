@@ -1,0 +1,36 @@
+### Create movie
+POST http://localhost:8082/movie
+content-type: application/json
+
+{
+  "title": "Inception",
+  "date": "22/07/2010",
+  "genre": "science fiction",
+  "company": "Warner Bros.",
+  "duration": "120",
+  "rating": "9"
+}
+
+### Update movie
+PUT http://localhost:8082/movie/1
+content-type: application/json
+
+{
+  "title": "The Lord of the Rings",
+  "date": "10/12/2001",
+  "genre": "fantasy",
+  "company": "New Line Cinema",
+  "duration": "208",
+  "rating": "9"
+}
+
+### Get all movies
+GET http://localhost:8082/movie
+Content-type: application/json
+
+### Get one movie
+GET http://localhost:8082/movie/1
+Content-type: application/json
+
+### Delete movie
+DELETE http://localhost:8082/movie/1
