@@ -4,7 +4,7 @@ docker-compose
 
 **Запуск:**  
 1) Перейти в директорію з проектом:   
-cd smtrpz-3/lab1
+cd smtrpz/lab1
 
 2) Запустити з командної строки або терміналу:   
 docker-compose up
