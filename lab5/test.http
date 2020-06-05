@@ -1,0 +1,37 @@
+### Fetch entities
+GET http://localhost:8080/movie
+Content-type: application/json
+
+### Fetch entity
+GET http://localhost:8080/movie/1
+Content-type: application/json
+
+### Delete entities
+DELETE http://localhost:8080/movie/1
+Content-type: application/json
+
+### Create entity
+POST http://localhost:8080/movie
+Content-type: application/json
+
+{
+  "title": "Inception",
+  "date": "22/07/2010",
+  "genre": "science fiction",
+  "company": "Warner Bros.",
+  "duration": "120",
+  "rating": "9"
+}
+
+### Update entity
+PUT http://localhost:8080/movie/1
+Content-type: application/json
+
+{
+  "title": "Inception",
+  "date": "22/07/2010",
+  "genre": "science fiction",
+  "company": "Warner Bros.",
+  "duration": "120",
+  "rating": "9"
+}
